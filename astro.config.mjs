@@ -7,6 +7,9 @@ import vue from "@astrojs/vue";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://smart-ace-designs.github.io",
+  base: "/astro-tip-calculator",
+  trailingSlash: "always",
   vite: {
     plugins: [tailwindcss()],
   },
