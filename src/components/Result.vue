@@ -58,6 +58,7 @@ const resetBill = () => {
     <button
       @click="resetBill"
       :disabled="billCompleted ? false : true"
+      type="button"
       class="w-full rounded-md py-2.5 text-xl uppercase"
       :class="[
         billCompleted

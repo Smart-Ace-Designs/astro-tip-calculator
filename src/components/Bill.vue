@@ -46,7 +46,7 @@ const updateTip = (tipValue: string): void => {
 </script>
 
 <template>
-  <form class="flex h-full flex-col justify-between px-8 pt-8 pb-4 lg:p-10 lg:pr-4">
+  <section class="flex h-full flex-col justify-between px-8 pt-8 pb-4 lg:p-10 lg:pr-4">
     <!-- Bill Amount -->
     <div class="relative mb-8 flex flex-col lg:mb-6">
       <div class="flex justify-between">
@@ -107,5 +107,5 @@ const updateTip = (tipValue: string): void => {
       />
       <img :src="person" alt="Dinner party" class="absolute top-12 left-4" />
     </div>
-  </form>
+  </section>
 </template>
